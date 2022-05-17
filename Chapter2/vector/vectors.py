@@ -30,6 +30,11 @@ class Vector:
     # Returns the item stored in the ndx element of the list.
     def __getitem__(self, ndx):
         return self._elements[ndx]
+    
+    def __repr__(self):
+        for i in self:
+            if i != None:
+                print(i, end=',')
 
     # displays the elements to the screen
     def display(self):
