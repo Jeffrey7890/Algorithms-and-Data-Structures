@@ -44,6 +44,7 @@ class ColorImage:
 			for j in range(self._ncols):
 				print(self._pixelsArray[self._computeIndex((i,j))].Grey(), end= " ")
 			print("")
+		print("_" * 50)
 
 	def __getitem__(self,  ndxTuple):
 		assert ndxTuple[0] < self._nrows and ndxTuple[1] < self._ncols, "Out of range"
