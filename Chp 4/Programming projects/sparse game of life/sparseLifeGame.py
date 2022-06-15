@@ -23,7 +23,7 @@ class SparseLifeGrid:
 
 	def minRange(self):
 		minim = self._elementList[0]
-		# print(minim,"->min")
+
 		for cell in self._elementList:
 			if (minim.row > cell.row) and (minim.col > cell.row) and (minim.life == self.LIVE_CELL):
 				# print(cell)
