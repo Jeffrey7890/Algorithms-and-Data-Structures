@@ -9,7 +9,7 @@ Each cell follow a specific set of rules which are:\
 👉 Any dead cell with three live neighbours becomes a live cell.\
 👉 All other live cells die in the next generation. Similarly, all other dead cells stay dead.
 
-An infinite two-dimensional grid of sqaure cell can be implimented using a sparse matrix.\
+An infinite two-dimensional grid of sqaure cell can be implimented using a sparse matrix.
 
 The the sparseGameVisual.py can be configured through command line:\
 $ python sparseGameVisual.py [(1,2),(2,1),(4,3)]\
